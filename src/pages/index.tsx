@@ -5,7 +5,7 @@ import { Layout, SEO } from "../components"
 const IndexPage = () => (
   <Layout>
     <SEO title="Hello" />
-    <div tw="w-screen h-screen flex flex-col items-center justify-center text-center">
+    <div tw="w-screen h-screen flex flex-col items-center justify-center text-center bg-gradient-to-br from-gray-50 to-white">
       <h1>
         <StaticImage
           tw="w-24 h-auto rounded-full"
