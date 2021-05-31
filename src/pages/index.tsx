@@ -25,6 +25,16 @@ const IndexPage = () => (
         <li>
           <a
             tw="hover:text-gray-800 transition-colors"
+            href="https://github.com/smetzdev"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            GitHub
+          </a>
+        </li>
+        <li>
+          <a
+            tw="hover:text-gray-800 transition-colors"
             href="https://twitter.com/smetzdev"
             target="_blank"
             rel="noopener noreferrer"
@@ -35,11 +45,11 @@ const IndexPage = () => (
         <li>
           <a
             tw="hover:text-gray-800 transition-colors"
-            href="https://github.com/smetzdev"
+            href="https://www.instagram.com/smetzdev/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            GitHub
+            Insta
           </a>
         </li>
         <li>
