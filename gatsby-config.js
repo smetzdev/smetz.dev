@@ -1,3 +1,5 @@
+const colors = require("./designtokens/colors")
+
 module.exports = {
   siteMetadata: {
     title: `@smetzdev`,
@@ -20,10 +22,10 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `gatsby-starter-default`,
-        short_name: `starter`,
+        short_name: `star ter`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: colors.primary.DEFAULT,
+        theme_color: colors.primary.DEFAULT,
         display: `minimal-ui`,
         icon: `src/images/icon.png`, // This path is relative to the root of the site.
       },

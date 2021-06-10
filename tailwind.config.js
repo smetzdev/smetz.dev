@@ -1,3 +1,5 @@
+const { primary, gray, white } = require("./designtokens/colors")
+
 module.exports = {
   purge: [],
   darkMode: false, // or 'media' or 'class'
@@ -8,7 +10,9 @@ module.exports = {
     },
     extend: {
       colors: {
-        "gatsby-purple": "#663399",
+        primary,
+        gray,
+        white,
       },
     },
   },
