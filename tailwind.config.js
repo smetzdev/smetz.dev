@@ -1,5 +1,5 @@
 const customColors = require("./designtokens/colors")
-const { fontFamily } = require("tailwindcss/defaultTheme")
+const { fontFamily, borderRadius } = require("tailwindcss/defaultTheme")
 
 module.exports = {
   purge: [],
@@ -14,6 +14,9 @@ module.exports = {
         sans: ["Inter", ...fontFamily.sans],
       },
       colors: customColors,
+      borderRadius: {
+        default: borderRadius.xl,
+      },
     },
   },
   variants: {},
