@@ -1,4 +1,5 @@
 const { primary, gray, white } = require("./designtokens/colors")
+const { fontFamily } = require("tailwindcss/defaultTheme")
 
 module.exports = {
   purge: [],
@@ -9,6 +10,9 @@ module.exports = {
       padding: "1rem",
     },
     extend: {
+      fontFamily: {
+        sans: ["Inter", ...fontFamily.sans],
+      },
       colors: {
         primary,
         gray,
