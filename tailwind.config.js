@@ -1,4 +1,4 @@
-const { primary, gray, white } = require("./designtokens/colors")
+const customColors = require("./designtokens/colors")
 const { fontFamily } = require("tailwindcss/defaultTheme")
 
 module.exports = {
@@ -13,11 +13,7 @@ module.exports = {
       fontFamily: {
         sans: ["Inter", ...fontFamily.sans],
       },
-      colors: {
-        primary,
-        gray,
-        white,
-      },
+      colors: customColors,
     },
   },
   variants: {},

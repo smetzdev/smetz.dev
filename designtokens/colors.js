@@ -17,5 +17,4 @@ module.exports = {
     "DEFAULT": "#FF9111",
   },
   gray: colors.trueGray,
-  white: "#fff",
 }
