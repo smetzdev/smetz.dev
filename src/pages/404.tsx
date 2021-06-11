@@ -1,12 +1,11 @@
 import { Link } from "gatsby"
 import "twin.macro"
-import { Layout, SEO } from "../components"
-import { Gravatar } from "../gatsby-components"
+import { Gravatar, Layout, SEO } from "../gatsby-components"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="404 - Page not found" />
-    <div tw="w-screen h-screen flex flex-col items-center justify-center text-center bg-gray-900 text-gray-300">
+    <div tw="w-screen h-screen flex flex-col items-center justify-center text-center">
       <h1>
         <Gravatar />
       </h1>

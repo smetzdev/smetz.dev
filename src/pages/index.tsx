@@ -1,20 +1,14 @@
 import "twin.macro"
-import { StaticImage } from "gatsby-plugin-image"
-import { Layout, SEO } from "../components"
-import { Gravatar } from "../gatsby-components"
-
-// https://de.gravatar.com/site/implement/images/
-const gravatarURL =
-  "https://www.gravatar.com/avatar/fb6a9efd248314aad6fece7135ecfe0d?size=500"
+import { Gravatar, Layout, SEO } from "../gatsby-components"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Hello" />
-    <div tw="w-screen h-screen flex flex-col items-center justify-center text-center bg-gray-900 text-white">
+    <div tw="w-screen h-screen flex flex-col items-center justify-center text-center">
       <h1>
         <Gravatar />
       </h1>
-      <ul tw="flex space-x-6 mt-4 text-gray-300">
+      <ul tw="flex space-x-6 mt-4">
         {links.map(link => (
           <li key={link.title.toLowerCase()}>
             <a tw="hover:text-primary transition-colors" href={link.href}>
