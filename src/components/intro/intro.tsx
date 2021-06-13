@@ -12,15 +12,16 @@ export const Intro = ({ Image, socialMediaLinks }: IntroProps) => {
       </header>
       <article tw="mt-8 leading-relaxed max-w-2xl space-y-4">
         <p>
-          I started webdevelopment in 2012 and call myself a{" "}
+          I started webdevelopment in 2012 and consider myself a{" "}
           <ExternalLink href="https://www.youtube.com/watch?v=HtTUsOKjWyQ">
             professional
           </ExternalLink>{" "}
           since 2015.
         </p>
         <p>
-          I come from a classic WordPress background but would call myself a
-          jamstack-enthusiast nowadays.
+          I come from a classic WordPress background but would call myself a{" "}
+          <ExternalLink href="https://jamstack.org/">jamstack</ExternalLink>
+          -enthusiast nowadays.
         </p>
         <p>
           I am currently working for two awesome companies called{" "}
