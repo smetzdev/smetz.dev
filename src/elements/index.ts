@@ -1,2 +1,2 @@
-export * from "./devto-icon"
 export * from "./module-headline"
+export * from "./external-link"
