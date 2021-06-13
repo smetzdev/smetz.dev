@@ -11,4 +11,8 @@ export const baseStyles = css`
   ::selection {
     ${tw`text-gray-900 bg-primary`}
   }
+
+  a {
+    ${tw`transition-colors text-primary-600 hover:text-primary-400`}
+  }
 `
