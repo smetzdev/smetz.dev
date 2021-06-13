@@ -3,6 +3,7 @@ import { Intro, IntroProps } from "./index"
 export default {
   title: "Components/Intro",
   args: {
+    Image: <img src="https://picsum.photos/500/500" alt="Dummy" />,
     socialMediaLinks: [
       {
         title: "Mail",

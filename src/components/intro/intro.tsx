@@ -3,9 +3,11 @@ import { ModuleHeadline, ExternalLink } from "../../elements"
 
 export const Intro = ({ Image, socialMediaLinks }: IntroProps) => {
   return (
-    <section tw="text-2xl container">
+    <section tw="text-xl sm:text-2xl container">
       <header tw="flex items-center space-x-8">
-        <div tw="rounded-full w-24 h-24 bg-primary inline-block">{Image}</div>
+        <div tw="rounded-full overflow-hidden w-24 h-24 bg-primary inline-block sm:(w-40 h-40)">
+          {Image}
+        </div>
         <ModuleHeadline as="h1">Hi, I am Sascha</ModuleHeadline>
       </header>
       <article tw="mt-8 leading-relaxed max-w-2xl space-y-4">
