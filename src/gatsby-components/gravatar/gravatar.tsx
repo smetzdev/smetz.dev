@@ -5,12 +5,17 @@ import "twin.macro"
 const gravatarURL =
   "https://www.gravatar.com/avatar/fb6a9efd248314aad6fece7135ecfe0d?size=500"
 
-export const Gravatar = () => {
+export const Gravatar = ({ className }: GravatarProps) => {
   return (
     <StaticImage
-      tw="w-24 h-auto rounded-full"
+      tw="rounded-full"
+      className={className}
       src={gravatarURL}
       alt="@smetzdev"
     />
   )
+}
+
+export type GravatarProps = {
+  className?: string
 }

@@ -6,7 +6,7 @@ const IndexPage = () => (
     <SEO title="Hello" />
     <div tw="w-screen h-screen flex flex-col items-center justify-center text-center">
       <h1>
-        <Gravatar />
+        <Gravatar tw="w-32 h-auto" />
       </h1>
       <ul tw="flex space-x-6 mt-4">
         {links.map(link => (
