@@ -1,5 +1,5 @@
 import "twin.macro"
-import { ArrowCircleLeftIcon, ExternalLinkIcon } from "@heroicons/react/solid"
+import { ExternalLinkIcon } from "@heroicons/react/solid"
 import {
   Card,
   CardContent,
