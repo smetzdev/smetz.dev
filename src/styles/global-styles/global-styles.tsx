@@ -3,7 +3,7 @@ import React from "react"
 import { GlobalStyles as TwinMacroGlobalStyles } from "twin.macro"
 import { Global } from "@emotion/react"
 import { baseStyles } from "./_base-styles"
-import "@fontsource/inter/latin.css"
+import "@fontsource/inter/variable.css"
 
 export const GlobalStyles = () => (
   <>

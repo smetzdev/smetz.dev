@@ -11,7 +11,7 @@ module.exports = {
     },
     extend: {
       fontFamily: {
-        sans: ["Inter", ...fontFamily.sans],
+        sans: ["InterVariable", ...fontFamily.sans],
       },
       colors: customColors,
       borderRadius: {
