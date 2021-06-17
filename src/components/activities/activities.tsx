@@ -24,7 +24,7 @@ export const Activities = ({ activities }: ActivitiesProps) => {
               key={key}
               tw="transform transition-transform hover:(scale-105 ease-in-out duration-300)"
             >
-              <CardContent>
+              <CardContent tw="text-gray-300">
                 {activity.title && (
                   <CardContentTitle>{activity.title}</CardContentTitle>
                 )}
