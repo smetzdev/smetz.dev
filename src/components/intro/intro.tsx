@@ -1,5 +1,9 @@
 import "twin.macro"
-import { ModuleHeadline, ExternalLink } from "../../elements"
+import {
+  ModuleHeadline,
+  ExternalLink,
+  DynamicSocialMediaIcon,
+} from "../../elements"
 
 export const Intro = ({ Image, socialMediaLinks }: IntroProps) => {
   return (
@@ -32,11 +36,15 @@ export const Intro = ({ Image, socialMediaLinks }: IntroProps) => {
         </p>
         <div tw="mt-8!">
           <p>Feel free to read more or reach out:</p>
-          <ul tw="flex space-x-4">
+          <ul tw="flex space-x-4 items-center mt-2">
             {socialMediaLinks.map((link, key) => (
               <li key={key}>
-                <ExternalLink href={link.href} title={link.title}>
-                  {link.title}
+                <ExternalLink
+                  tw="text-gray-300 hover:text-primary"
+                  href={link.href}
+                  title={link.title}
+                >
+                  <DynamicSocialMediaIcon tw="w-8 h-auto" url={link.href} />
                 </ExternalLink>
               </li>
             ))}
