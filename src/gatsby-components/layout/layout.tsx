@@ -8,12 +8,16 @@
 import * as React from "react"
 import "twin.macro"
 import { GlobalStyles } from "../../styles"
+import { AnimatedBlobs } from "../../elements"
 
 export const Layout = ({ children }: LayoutProps) => {
   return (
     <>
       <GlobalStyles />
       <main>{children}</main>
+      <div tw="hidden lg:(block fixed bottom-0 right-0 w-1/3 h-1/2 animate-spin animation-duration[20s])">
+        <AnimatedBlobs />
+      </div>
     </>
   )
 }
