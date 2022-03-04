@@ -14,7 +14,7 @@ export const Layout = ({ children }: LayoutProps) => {
   return (
     <>
       <GlobalStyles />
-      <main>{children}</main>
+      <main tw="py-16 sm:py-0">{children}</main>
       <div tw="hidden lg:(block fixed bottom-0 right-0 w-1/3 h-1/2 animate-spin animation-duration[20s])">
         <AnimatedBlobs />
       </div>
